@@ -1,6 +1,6 @@
 # Technical Evaluation Study Guide
 
-To gain admission into Thinkful's Engineering Immersion or Engineering Nights & Weekends programs, you must pass a technical evaluation. The purpose of this evaluation is to ensure prospective students have a good understanding of JavaScript, HTML, CSS and GitHub/command line before entering the program. 
+To gain admission into Thinkful's Engineering Immersion or Engineering Nights & Weekends programs, you must pass a live, technical evaluation. The purpose of this evaluation is to ensure prospective students have a good understanding of JavaScript, HTML, CSS and GitHub/command line before entering the program. 
 
 ## How does this work?
 
@@ -10,26 +10,26 @@ The format of the evaluation is broken into two sections:
 
 ##### Verbal
 
-In the first 10-15 minutes, you will answer questions about the topics covered in the curriculum. Expect questions about the  HTML/CSS, JavaScript, and GitHub/command line. You are not permitted to look up information in this section. 
+In the first 10-15 minutes, you will answer questions about the topics covered in the curriculum: HTML/CSS, JavaScript, and GitHub/command line. You will not be permitted to look up information in this section. 
 
 ##### Live Coding
 
-You will spend a majority of the time (45 minutes) on live JavaScript coding challenges. You will clone GitHub repo, open the files on your local editor, and modify the files with your solutions. Be sure to review the GitHub/command line lesson and practice this with your mentor. 
+A majority of the time (45 minutes) will be spent on live JavaScript coding challenges. You will clone a GitHub repo, open files containing the challenges on your local editor, and modify the files with your solutions. Be sure to review the GitHub/command line lesson and practice this flow with your mentor. 
 
-Keep in mind that this section is open resource -- you'll be able to look up documentation online. We expect you to explain your thought process out loud as your work through each challenge with your evaluator. To succeed in technical interviews, it's important to develop a consistent problem-solving process and are able to effectively communicate your approach. 
+Note: this section is open resource -- you'll be able to look up documentation online. We expect you to verbalize your thought process you work through each challenge with your evaluator. To succeed in technical interviews, it's important to develop a consistent problem-solving process and effectively communicate your approach. 
 
 # How should I prepare? 
 
 [Watch Video: "How to Pass the Tech Eval"](https://www.useloom.com/share/70778ddd010e413baaeef45010b97cde)
 
-In addition to reviewing the concepts in the curriculum, the best way to prepare for the technical evaluation is to practice the for the specific format of the interview. 
+In addition to reviewing the concepts in the curriculum, the best way to prepare for the technical evaluation is to practice for the specific format of the interview. 
 
-During the verbal section, you might hear questions like "What's the difference betweeen X and Y?" or "Why is Z concept important?". Spend a minute explaining each high-level concept you've learned out loud. If you struggle to do this, go back and review the curriculum or watch one of several educational YouTube videos for that concept. 
+During the verbal section, you might hear questions like "What's the difference betweeen X and Y?" or "Why is Z concept important?". Spend a minute explaining each high-level concept you've learned out loud. If you struggle to do this, go back and review the curriculum or watch one of several educational YouTube videos that explain the concept. We also recommend you practicing discussing technical concepts on Slack, in office hours, or with your mentor. 
 
-To practice for the live coding section, you can simulate the specific environment blocking off 45 minutes at a time as you work through live coding challenges, explain your thought process out loud, and look up documentation when stuck. 
+To practice for the live coding section, you should simulate the specific environment blocking off 45 minutes at a time to work through live coding challenges, verbalize your thought process, and look up documentation when stuck. 
 
 We require you spend at least 10 hours on the following live coding challenges:
-* [JavaScript Classroom](https://repl.it/community/classrooms/20690) in Repl.it -- To access, sign into your Repl.it account and click on the community link in the menu. Then select the Auto-graded Javascript Exercises classroom, and click "Take This Classroom". You'll be asked to create a student profile, which is just your name and school. This resource is our top recommendation. 
+* [JavaScript Classroom](https://repl.it/community/classrooms/20690) in Repl.it. This resource is our top recommendation. To access, sign into your Repl.it account and click on the community link in the menu. Then select the Auto-graded Javascript Exercises classroom, and click "Take This Classroom". You'll be asked to create a student profile, which is just your name and school. 
 * [Free Code Camp - Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript)
 * [Free Code Camp - Basic Data Structures](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures)
 * [Free Code Camp - Basic Algorithms](https://www.freecodecamp.org/challenges/get-set-for-our-algorithm-challenges)
@@ -41,7 +41,8 @@ Note: If you have mentor sessions still available, ask your mentor to review the
 
 After the tech eval, the evaluator will submit a feedback form for the Prep Program Manager team to review. If you pass (and have confirmed finances), you'll soon receive a formal acceptance email and enrollment link. 
 
-If you do not pass, you'll be able to retake the tech eval. We encourage you to attempt the evaluation prior to the deadline to leave room for a possible retake. Reach out to your PM if you have any additional questions.
+If you do not pass, you'll be able to retake the tech eval. We encourage you to attempt the evaluation prior to the deadline to leave room for a possible retake. Your specific timeline for the retake will depend on your score and the cohort deadline. 
+Reach out directly to your PM with any specific questions.
 
 
 ## HTML
