@@ -29,7 +29,7 @@ During the verbal section, you might hear questions like "What's the difference 
 To practice for the live coding section, you can simulate the specific environment blocking off 45 minutes at a time as you work through live coding challenges, explain your thought process out loud, and look up documentation when stuck. 
 
 We require you spend at least 10 hours on the following live coding challenges:
-* [JavaScript Classroom](https://repl.it/community/classrooms/20690) in Repl.it -- To access, sign into your Repl.it account and click on the community link in the menu. Then select the Auto-graded Javascript Exercises classroom, and click "Take This Classroom". You'll be asked to create a student profile, which is just your name and school. 
+* [JavaScript Classroom](https://repl.it/community/classrooms/20690) in Repl.it -- To access, sign into your Repl.it account and click on the community link in the menu. Then select the Auto-graded Javascript Exercises classroom, and click "Take This Classroom". You'll be asked to create a student profile, which is just your name and school. This resource is our top recommendation. 
 * [Free Code Camp - Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript)
 * [Free Code Camp - Basic Data Structures](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures)
 * [Free Code Camp - Basic Algorithms](https://www.freecodecamp.org/challenges/get-set-for-our-algorithm-challenges)
