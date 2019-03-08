@@ -2,7 +2,7 @@
 
 To gain admission into Thinkful's Engineering Immersion or Engineering Nights & Weekends programs, you must pass a live, technical evaluation. The purpose of this evaluation is to ensure prospective students have a good understanding of JavaScript, HTML, CSS and GitHub/command line before entering the program. 
 
-## How does this work?
+## What is the structure of the evaluation?
 
 The tech eval will be live, 1-hour in length, and conducted by a Thinkful mentor. You will schedule your technical evaluation directly on your dashboard once your previous goals have been marked complete. 
 
@@ -18,7 +18,7 @@ A majority of the time (45 minutes) will be spent on live JavaScript coding chal
 
 Note: this section is open resource -- you'll be able to look up documentation online. We expect you to verbalize your thought process you work through each challenge with your evaluator. To succeed in technical interviews, it's important to develop a consistent problem-solving process and effectively communicate your approach. 
 
-# How should I prepare? 
+## How do I prepare? 
 
 [Watch Video: "How to Pass the Tech Eval"](https://www.useloom.com/share/70778ddd010e413baaeef45010b97cde)
 
@@ -37,7 +37,7 @@ We require you spend at least 10 hours on the following live coding challenges:
 
 Note: If you have mentor sessions still available, ask your mentor to review the practice tech eval with you (they have access to this). It's a good idea to give them a heads up that you'll want to do this prior to your meeting so they can prepare. 
 
-# What happens after the evaluation? 
+## What happens after the evaluation? 
 
 After the tech eval, the evaluator will submit a feedback form for the Prep Program Manager team to review. If you pass (and have confirmed finances), you'll soon receive a formal acceptance email and enrollment link. 
 
