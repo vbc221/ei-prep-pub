@@ -24,7 +24,7 @@ Note: this section is open resource -- you'll be able to look up documentation o
 
 In addition to reviewing the concepts in the curriculum, the best way to prepare for the technical evaluation is to practice for the specific format of the interview. 
 
-During the verbal section, you might hear questions like "What's the difference betweeen X and Y?" or "Why is Z concept important?". Spend a minute explaining each high-level concept you've learned out loud. If you struggle to do this, go back and review the curriculum or watch one of several educational YouTube videos that explain the concept. We also recommend you practicing discussing technical concepts on Slack, in office hours, or with your mentor. 
+During the verbal section, you might hear questions like "What's the difference between X and Y?" or "Why is Z concept important?". Spend a minute explaining each high-level concept you've learned out loud. If you struggle to do this, go back and review the curriculum or watch one of several educational YouTube videos that explain the concept. We also recommend you practicing discussing technical concepts on Slack, in office hours, or with your mentor. 
 
 To practice for the live coding section, you should simulate the specific environment blocking off 45 minutes at a time to work through live coding challenges, verbalize your thought process, and look up documentation when stuck. 
 
