@@ -1,48 +1,32 @@
-# Technical Evaluation Study Guide
+What is the purpose of the doctype command? (Lesson 1.1)
+Doctype is a command for the browser. The purpose of doctype is to make sure the browser is parsing on the most recent version of html. 
 
-To gain admission into Thinkful's Engineering Immersion or Engineering Nights & Weekends programs, you must pass a live, technical evaluation. The purpose of this evaluation is to ensure prospective students have a good understanding of JavaScript, HTML, CSS and GitHub/command line before entering the program. 
+What is a <head> element? (Lesson 1.1)
+A head element is where we put document metadata.
+  
+What is semantic HTML, and why is it important? (Lesson 1.2)
+Semantic HTML is important so that visually imparred users can access websites using screenreaders. It is also important so that when you are working with other developers, they know whats going on. 
 
-## What is the structure of the evaluation?
+What is the difference between classes and IDs in HTML and CSS? (Lesson 1.3)
+The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.
 
-The tech eval will be live, 1-hour in length, and conducted by a Thinkful mentor. You will schedule your technical evaluation directly on your dashboard once your previous goals have been marked complete. 
+What does * { box-sizing: border-box; } do? What are its advantages? (Lesson 1.3)
+Border and padding are included in the width and height. It helps make responsive layouts more managable.
 
-The format of the evaluation is broken into two sections: 
+How is an inline element different from a block level element? (Lesson 1.4)
+An inline element – for example, a, strong, em, or span – doesn't start on a new line and usually does not contain additional elements, but instead just contains text. You can't explicitly set the width, height, margin, or padding of an inline element; instead, its dimensions are determined by how much space its contents require.A block-level element has the opposite qualities. It gets displayed on a new line (and takes up the whole available line), may contain additional block-level or inline elements, and its height and width can be explicitly set.
 
-##### Verbal
+What's an example of a situation where you would use a <form> element? (Lesson 1.5)
+ 
+  
+What are media queries? (Lesson 1.6)
+Media queries are a tool that CSS gives us to apply blocks of CSS rules to only certain viewports. So on a single stylesheet, we can specify how things should look at one viewport size and specify a different layout and appearance at a different viewport size.
 
-In the first 10-15 minutes, you will answer questions about the topics covered in the curriculum: HTML/CSS, JavaScript, and GitHub/command line. You will not be permitted to look up information in this section. 
+Why are grids valuable? (Lesson 1.6)
 
-##### Live Coding
 
-A majority of the time (45 minutes) will be spent on live JavaScript coding challenges. You will clone a GitHub repo, open files containing the challenges on your local editor, and modify the files with your solutions. Be sure to review the GitHub/command line lesson and practice this flow with your mentor. 
-
-Note: this section is open resource -- you'll be able to look up documentation online. We expect you to verbalize your thought process you work through each challenge with your evaluator. To succeed in technical interviews, it's important to develop a consistent problem-solving process and effectively communicate your approach. 
-
-## How do I prepare? 
-
-[Watch Video: "How to Pass the Tech Eval"](https://www.useloom.com/share/70778ddd010e413baaeef45010b97cde)
-
-In addition to reviewing the concepts in the curriculum, the best way to prepare for the technical evaluation is to practice for the specific format of the interview. 
-
-During the verbal section, you might hear questions like "What's the difference between X and Y?" or "Why is Z concept important?". Spend a minute explaining each high-level concept you've learned out loud. If you struggle to do this, go back and review the curriculum or watch one of several educational YouTube videos that explain the concept. We also recommend you practicing discussing technical concepts on Slack, in office hours, or with your mentor. 
-
-To practice for the live coding section, you should simulate the specific environment blocking off 45 minutes at a time to work through live coding challenges, verbalize your thought process, and look up documentation when stuck. 
-
-We require you spend at least 10 hours on the following live coding challenges:
-* [JavaScript Classroom](https://repl.it/community/classrooms/20690) in Repl.it. This resource is our top recommendation. To access, sign into your Repl.it account and click on the community link in the menu. Then select the Auto-graded Javascript Exercises classroom, and click "Take This Classroom". You'll be asked to create a student profile, which is just your name and school. 
-* [Free Code Camp - Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript)
-* [Free Code Camp - Basic Data Structures](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures)
-* [Free Code Camp - Basic Algorithms](https://www.freecodecamp.org/challenges/get-set-for-our-algorithm-challenges)
-* [Codewars](https://www.codewars.com/)
-
-Note: If you have mentor sessions still available, ask your mentor to review the practice tech eval with you (they have access to this). It's a good idea to give them a heads up that you'll want to do this prior to your meeting so they can prepare. 
-
-## What happens after the evaluation? 
-
-After the tech eval, the evaluator will submit a feedback form for the Prep Program Manager team to review. If you pass (and have confirmed finances), you'll soon receive a formal acceptance email and enrollment link. 
-
-If you do not pass, you'll be able to retake the tech eval. We encourage you to attempt the evaluation prior to the deadline to leave room for a possible retake. Your specific timeline for the retake will depend on your score and the cohort deadline. 
-Reach out directly to your PM with any specific questions.
+What is a function? (Lesson 2.2)
+A function describes a repeatable process or behavior
 
 
 ## HTML
@@ -50,6 +34,9 @@ Reach out directly to your PM with any specific questions.
 ### Create valid, semantic, accessible HTML
 
 Note in particular the use of semantic elements like `header`, `section`, and `footer`, and the use of the `lang` and `role` attributes, which are accessibility must haves.
+
+Setting this value to en tells the browser that the main language for the document is English so screen readers will choose the appropriate voice when reading it aloud.
+Roles tell a browser, "This is the kind of job my content is supposed to do." They make it easier for screen reader users to understand what is on the page and how to use it.
 
 ```html
 <!DOCTYPE html>
@@ -125,8 +112,32 @@ Note in particular the use of semantic elements like `header`, `section`, and `f
 Be able to explain and demonstrate the following values for the `display` property:
 
 * `inline`
+An inline element – for example, a, strong, em, or span – doesn't start on a new line and usually does not contain additional elements, but instead just contains text. You can't explicitly set the width, height, margin, or padding of an inline element; instead, its dimensions are determined by how much space its contents require.
+p {
+  max-width: 450px;
+}
+
 * `block`
+A block-level element has the opposite qualities. It gets displayed on a new line (and takes up the whole available line), may contain additional block-level or inline elements, and its height and width can be explicitly set. 
+
+.inner-one {
+   height: 100px;
+   background-color: blue;
+}
+
+.inner-two {
+  width: 50%;
+  height: 100px;
+  background-color: green;
+}
+
 * `inline-block`
+An inline-block element displays inline like a span or a element, but you can give it an explicit width, height, margin, and padding. 
+.inner {
+  height: 100px;
+  width: 25%;
+  display: inline-block;
+}
 
 
 ### Use the position property
@@ -134,9 +145,38 @@ Be able to explain and demonstrate the following values for the `display` proper
 Be able to explain and demonstrate the following values for the position property:
 
 * `static`
+Any HTML element with the position: static will have what is called normal flow. Normal flow refers to the default way browsers render content. Under normal flow, block-level elements get rendered in the same order that they appear in the HTML markup, one on top of another, starting from the top left corner of the document, and inline elements stretch as wide as their inside content (usually text).position: static – or rather, not setting any value for position on an element – is often the behavior we want. Unless you have a specific reason to choose one of the other possible values discussed below, then don't explicitly set position.
+
+
 * `absolute`
+Like fixed elements, absolute elements are outside the normal flow and can be offset, but unlike fixed elements, they are offset in relation to the first parent container with a non-static position.
+
+nav {
+  padding-top: 10px;
+  padding-right: 10px;
+  border: 1px solid black;
+  text-align: right;
+  position: relative;
+  height: 50px;
+}
+
 * `relative`
+When an element's position property is set to relative, it is still in the normal flow (in other words, relatively positioned elements are rendered in the order they appear in HTML), but unlike with static elements, we can use offset properties (left, right, top, bottom) with relative elements.
+
+div {
+  position: relative;
+}
+
 * `fixed`
+When an element's position is set to fixed, it will stay in place even when the user scrolls. Fixed elements are taken out of the normal flow, and other elements will position themselves as if the fixed element does not exist. 
+.foo {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  background-color: blue;
+  left: 0;
+  top: 0;
+}
 
 
 ### Use the float property
@@ -144,9 +184,34 @@ Be able to explain and demonstrate the following values for the position propert
 Be able to explain and demonstrate the `float` property, and relatedly the `clear` property. Specifically:
 
 * `float: left`
+float: left; on the .left class and applied that class to the three image elements. By doing so, we've taken the images out of the normal flow, and pushed them to the left. 
+
+.left {
+  float: left;
+  margin-right: 15px;
+}
+
 * `float: right`
+Note that if we set float: right; instead, the images would move to the right of the page, and the text would wrap on the left.
+
+.right {
+  float: right;
+  margin-left: 15px;
+}
+
+
 * `clear: left`
+
+
 * `clear: right`
+In this instance, we set it to clear: right in order to make div.foo aware of the right floated elements and move to the next line.
+
+.foo {
+  width: 75px;
+  height: 75px;
+  background-color: red;
+  clear: right; 
+}
 
 
 ## JavaScript
@@ -189,11 +254,12 @@ var numCookies = 900; //number variable
 
 ```javascript
 == vs. ===
-!==
+simple equality vs strict equality.The strict equality operator === first compares data type of the 2 items being compared, and if they're not the same data type (as in this case), it returns false. If they are the same type, it then checks to see if they have the same value. The == operator in JavaScript has a looser notion of equality. When it compares 2 items, if it finds that the 2 values are not of the same type, it coerces (or converts) one of the value types to the type of the other. So true == 1 evaluates to true because when you have a boolean and a number, the number gets converted to a boolean
+!== not equal
 <=
 >=
-||
-&&
+|| or
+&& and
 ```
 
 
@@ -308,6 +374,8 @@ myObj["fruit"]
 
 Be able to explain when or why you would use dot notation vs. bracket notation
 
+
+
 #### Loop through a JavaScript object and print the key and value to the console
 
 ```javascript
@@ -360,29 +428,4 @@ function findByName(searchName) {
 const person = findByName('Jane');
 console.log(person);  // => { name: "Jane", age: 42, favoriteFood: "sushi" }
 ```
-
-## Command Line
-
-* `cd`: Change directory
-* `pwd`: Print working directory
-* `ls`: List files of current directory
-* `mkdir`: Make a new directory
-* `touch`: Create a file
-* `rm`: Remove a file
-* `rmdir`: Remove a directory
-* `mv`: Move a file
-* `cp`: Copy a file
-
-## Git
-
-* `git init`: Initialize a new git repository
-* `git add`: Stage a file for changes (watch these files for changes)
-* `git commit`: Commit a set of changes (take a snapshot of the code as it is right now)
-* `git status`: Shows the current status of a git repository
-* `git diff`: Shows the differences between commits
-* `git checkout`: Switch branches
-* `git reset`: Reset to a previous state
-* `git branch`: List, create, or delete branches
-* `git merge`: Join two or more branches
-* `git push`: Update remote repository
 
